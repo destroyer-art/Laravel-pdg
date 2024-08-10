@@ -1,0 +1,43 @@
+
+/* Custom-modal */
+
+.modal-demo {
+    background-color: $white;
+    width: 600px;
+    border-radius: 4px;
+    display: none;
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 25px;
+      color: $white;
+      opacity: 0.5 !important;
+
+      &:hover {
+        opacity: 1 !important;
+      }
+    }
+}
+
+.custom-modal-title {
+    padding: 15px 25px 15px 25px;
+    line-height: 22px;
+    font-size: 18px;
+    background-color: $custom;
+    color: $white;
+    text-align: left;
+    margin: 0px;
+}
+.custom-modal-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.custombox-modal-flash ,.custombox-modal-rotatedown {
+  .close {
+    top: 20px;
+    z-index: 9999;
+  }
+}
+

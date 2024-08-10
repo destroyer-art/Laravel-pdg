@@ -1,0 +1,28 @@
+/* =============
+   Tree view page
+============= */
+
+
+.jstree-default {
+  .jstree-clicked {
+    background: rgba($custom, 0.4);
+    box-shadow: none;
+  }
+  .jstree-hovered {
+    background: rgba($custom, 0.4);
+    box-shadow: none;
+  }
+  .jstree-wholerow-clicked {
+    background: rgba($custom, 0.4);
+  }
+  .jstree-wholerow-hovered {
+    background: rgba($custom, 0.4);
+  }
+  .zmdi {
+    font-size: 16px;
+    color: rgba($dark,0.5);
+  }
+  .jstree-icon {
+    color: rgba($dark,0.5);
+  }
+}

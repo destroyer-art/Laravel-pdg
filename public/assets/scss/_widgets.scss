@@ -1,0 +1,106 @@
+// WIDGETS
+.tilebox-one {
+  i {
+    font-size: 30px;
+  }
+}
+
+.tilebox-two {
+  i {
+    font-size: 48px;
+    opacity: 0.2;
+    margin-top: 20px;
+  }
+}
+
+.widget-user {
+  position: relative;
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+.user-position {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  font-size: 16px;
+  text-align: center;
+  right: 0;
+  left: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+
+  span {
+    transform: rotate(90deg);
+  }
+}
+
+.tilebox-three .bg-icon {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-clip: padding-box;
+  border: 1px dashed $muted;
+  background-color: $gray-lightest;
+  margin-right: 20px;
+
+  i {
+    line-height: 80px;
+    font-size: 36px;
+    color: $muted;
+  }
+}
+
+/* Inbox-widget */
+
+.inbox-widget {
+  .inbox-item {
+    border-bottom: 1px solid $gray-lightest;
+    overflow: hidden;
+    padding: 15px 0;
+    position: relative;
+    .inbox-item-img {
+      display: block;
+      float: left;
+      margin-right: 15px;
+      width: 40px;
+    }
+    img {
+      width: 40px;
+    }
+    .inbox-item-author {
+      color: darken($gray-light, 40%);
+      display: block;
+      margin: 0;
+    }
+    .inbox-item-text {
+      color: $gray-light;
+      display: block;
+      font-size: 12px;
+      margin: 0;
+    }
+    .inbox-item-date {
+      color: $gray-light;
+      font-size: 11px;
+      position: absolute;
+      right: 7px;
+      top: 2px;
+    }
+  }
+}

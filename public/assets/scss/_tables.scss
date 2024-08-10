@@ -1,0 +1,144 @@
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+    display: none;
+}
+
+
+table.dataTable thead th {
+    position: relative;
+    background-image: none !important;
+}
+
+table.dataTable thead th.sorting:after,
+table.dataTable thead th.sorting_asc:after,
+table.dataTable thead th.sorting_desc:after {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    display: block;
+    font-family: FontAwesome;
+}
+
+table.dataTable thead th.sorting:after {
+    content: "\f0dc";
+    color: $dark;
+    font-size: 1em;
+    padding-top: 0.12em;
+}
+table.dataTable thead th.sorting_asc:after {
+    content: "\f0de";
+}
+table.dataTable thead th.sorting_desc:after {
+    content: "\f0dd";
+}
+
+// Responsive tables
+.table-rep-plugin {
+  .pull-right {
+    float: right !important;
+  }
+  .btn-default {
+    background-color: $white;
+    border: 1px solid rgba($dark, 0.3);
+  }
+  .btn-default.btn-primary {
+    background-color: $custom;
+  }
+  table.focus-on tbody tr.focused {
+    th, td {
+      background-color: $custom;
+      color: $white;
+    }
+  }
+  .btn-toolbar {
+    display: block;
+  }
+  .pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+
+.fixed-solution .sticky-table-header {
+  top: 70px !important;
+}
+
+.table-wrapper {
+  .btn-toolbar {
+    display: block;
+  }
+  .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+}
+
+/* Tablesaw */
+  .tablesaw thead {
+    background: $gray-lighter;
+    background-image: none;
+    border: none;
+  }
+  .tablesaw thead th {
+    text-shadow: none;
+    letter-spacing: 0.06em;
+  }
+  .tablesaw thead tr:first-child th {
+    padding-top: 1.1em;
+    padding-bottom: 0.9em;
+  }
+  .tablesaw thead tr:first-child th {
+    font-weight: 600;
+    font-family: inherit;
+    border: none;
+  }
+  .tablesaw td, .tablesaw tbody th {
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px !important;
+  }
+  .tablesaw-stack tbody tr ,.tablesaw tbody tr{
+    border-bottom: none;
+  }
+  .tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-ascending button:after, .tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-descending button:after {
+    font-family: FontAwesome;
+    font-size: 10px;
+  }
+  .tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-ascending button:after {
+    content: "\f176";
+  }
+  .tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-descending button:after {
+    content: "\f175";
+  }
+  .tablesaw-bar .btn-select.btn-small:after, .tablesaw-bar .btn-select.btn-micro:after {
+    font-size: 8px;
+    padding-right: 10px;
+  }
+  .tablesaw-swipe .tablesaw-cell-persist {
+    box-shadow: none;
+  }
+  .tablesaw-enhanced .tablesaw-bar .btn {
+    text-shadow: none;
+    background-image: none;
+  }
+  .tablesaw-enhanced .tablesaw-bar .btn.btn-select {
+    &:hover {
+      background: $white;
+    }
+  }
+  .tablesaw-enhanced .tablesaw-bar .btn:hover, .tablesaw-enhanced .tablesaw-bar .btn:focus,.tablesaw-enhanced .tablesaw-bar .btn:active {
+    color: $custom !important;
+    background-color: $gray-lighter;
+    outline: none !important;
+    box-shadow: none !important;
+    background-image: none;
+  }
+  .tablesaw-bar .tablesaw-advance a.tablesaw-nav-btn.down:before {
+    left: 0.4em;
+  }
+  .tablesaw-columntoggle-btnwrap {
+    .btn-group {
+      display: block;
+    }
+  }

@@ -1,0 +1,64 @@
+
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-custom {
+  color: $custom;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-success {
+  color: $success !important;
+}
+
+.text-info {
+  color: $info !important;
+}
+
+.text-warning {
+  color: $warning !important;
+}
+
+.text-danger {
+  color: $danger !important;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.text-pink {
+  color: $pink;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-white {
+  color: $white;
+}
+.text-muted {
+  color: $muted;
+}
+
+.dropdown-lg {
+  width: 280px;
+}
+
+.dropdown-menu {
+  box-shadow: 0 0px 24px 0 rgba($dark, 0.06), 0 1px 0px 0 rgba($dark, 0.02);
+  border: 1px solid rgba($dark, 0.05);
+}
+
+
+
+
+

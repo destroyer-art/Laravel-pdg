@@ -1,0 +1,134 @@
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+/* Carousel */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+
+// Labels
+.label {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: $white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.label-pill {
+  border-radius: 10rem;
+}
+.label:empty {
+  display: none;
+}
+
+.label-default {
+  background-color: $custom;
+}
+
+.label-primary {
+  background-color: $primary;
+}
+
+.label-success {
+  background-color: $success;
+}
+
+.label-info {
+  background-color: $info;
+}
+
+.label-warning {
+  background-color: $warning;
+}
+
+.label-danger {
+  background-color: $danger;
+}
+
+.label-pink {
+  background-color: $pink;
+}
+
+.lable-purple {
+  background-color: $purple;
+}
+
+.label-dark {
+  background-color: $dark;
+}
+
+
+/* Pagination/ Pager */
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+   color: $dark;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+   background-color: #e4e7ea;
+}
+
+.pagination-split li {
+   margin-left: 5px;
+   display: inline-block;
+   float: left;
+}
+
+.pagination-split li:first-child {
+   margin-left: 0;
+}
+
+.pagination-split li a {
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+   background-color: $custom;
+   border-color: $custom;
+}
+
+.pager li > a, .pager li > span {
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   color: $dark;
+}
+

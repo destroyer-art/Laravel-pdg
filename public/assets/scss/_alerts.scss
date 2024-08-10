@@ -1,0 +1,45 @@
+
+.alert-success {
+  background-color: lighten($success,45%);
+  border-color: $success;
+  color: $success;
+
+  .alert-link {
+    color: darken($success,5%);
+  }
+}
+
+.alert-info {
+  background-color: lighten($info,30%);
+  border-color: $info;
+  color: $info;
+
+  .alert-link {
+    color: darken($info,5%);
+  }
+}
+
+.alert-warning {
+  background-color: lighten($warning,30%);
+  border-color: $warning;
+  color: $warning;
+
+  .alert-link {
+    color: darken($warning,5%);
+  }
+}
+
+.alert-danger {
+  background-color: lighten($danger,30%);
+  border-color: $danger;
+  color: $danger;
+
+  .alert-link {
+    color: darken($danger,5%);
+  }
+}
+
+.alert-link {
+  font-weight: 500;
+}
+

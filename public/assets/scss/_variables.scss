@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,300");
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:               12 !default;
+$grid-gutter-width:          1.2rem; // 24px
+
+
+//Bootstrap overwrite
+
+$gray-dark:                 #373a3c;
+$gray:                      #55595c;
+$gray-light:                #818a91;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+$primary:             #039cfd;
+$success:             #1bb99a;
+$info:                #3db9dc;
+$warning:             #f1b53d;
+$danger:              #ff5d48;
+// Custom colors
+$white:               #ffffff;
+$custom:              #64b0f2;
+$dark:                #2b3d51;
+$pink:                #ff7aa3;
+$purple:              #9261c6;
+
+
+$body-bg:                    #f5f5f5;
+$body-color:                 $dark;
+
+
+$muted:              #818a91;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 $custom;
+$link-hover-color:           darken($link-color, 15%) !default;
+$link-hover-decoration:      none;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             14px !default;
+$font-size-base:             0.9rem;
+
+
+// Form states and alerts
+//
+// Define colors for form feedback states and, by default, alerts.
+
+$state-success-text:             #1bb99a !default;
+$state-success-bg:               #B6E9DF !default;
+$state-success-border:           darken($state-success-bg, 5%) !default;
+
+$state-info-text:                #23a0c3 !default;
+$state-info-bg:                  #ABDBE8 !default;
+$state-info-border:              darken($state-info-bg, 7%) !default;
+
+$state-warning-text:             #eaa211 !default;
+$state-warning-bg:               #FAE8C4 !default;
+$state-warning-border:           darken($state-warning-bg, 5%) !default;
+
+$state-danger-text:              #ff3015 !default;
+$state-danger-bg:                #FFCCC5 !default;
+$state-danger-border:            darken($state-danger-bg, 5%) !default;
+
+//$enable-flex:               false !default;
+
+

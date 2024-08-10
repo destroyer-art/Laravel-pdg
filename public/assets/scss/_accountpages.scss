@@ -1,0 +1,64 @@
+/* =============
+   Accounts pages
+============= */
+
+.account-pages {
+  background: $dark;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+}
+.wrapper-page {
+  margin: 5% auto;
+  position: relative;
+  max-width: 480px;
+
+  .account-bg {
+    background-color: $white;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 20px 15px;
+  }
+
+  .card-box{
+    box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border: 5px solid $custom;
+  }
+  .logo {
+    font-size: 24px;
+    line-height: 36px;
+    float: none;
+    color: $success !important;
+  }
+}
+
+.user-thumb {
+  position: relative;
+  z-index: 999;
+  img {
+    height: 88px;
+    margin: 0px auto;
+    width: 88px;
+  }
+}
+
+.ex-page-content {
+  .text-error {
+    color: $white;
+    font-size: 98px;
+    font-weight: 700;
+    line-height: 150px;
+
+    i {
+      font-size: 78px;
+      padding: 0px 10px;
+    }
+  }
+
+  .text-error.shadow {
+    text-shadow: rgba($white,0.3) 5px 1px, rgba($white,0.2) 12px 3px, rgba($white,0.1) 6px 4px;
+  }
+}

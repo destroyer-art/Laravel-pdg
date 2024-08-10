@@ -1,0 +1,163 @@
+// Chart List
+.chart-detail-list {
+  li {
+    margin: 0 10px;
+  }
+}
+
+/* Flot chart */
+#flotTip {
+  padding: 8px 12px;
+  background-color: $dark;
+  z-index: 100;
+  color: $white;
+  opacity: 0.9;
+  font-size: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.legend {
+  tr {
+   height: 20px;
+  }
+}
+.legendLabel {
+    padding-left: 5px !important;
+    line-height: 10px;
+    padding-right: 10px;
+}
+
+/* Morris chart */
+.morris-hover.morris-default-style {
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+
+/* Chartist chart */
+.ct-golden-section:before {
+    float: none;
+}
+.ct-chart {
+
+  max-height: 300px;
+
+  .ct-label {
+    fill: #a3afb7;
+    color: #a3afb7;
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+.ct-grid {
+    stroke: rgba($dark,0.15);
+}
+.ct-chart.simple-pie-chart-chartist {
+  .ct-label {
+    color: $white;
+    fill: $white;
+    font-size: 16px;
+  }
+}
+.ct-chart .ct-series.ct-series-a .ct-bar, .ct-chart .ct-series.ct-series-a .ct-line, .ct-chart .ct-series.ct-series-a .ct-point, .ct-chart .ct-series.ct-series-a .ct-slice-donut {
+    stroke: $primary;
+}
+.ct-chart .ct-series.ct-series-b .ct-bar, .ct-chart .ct-series.ct-series-b .ct-line, .ct-chart .ct-series.ct-series-b .ct-point, .ct-chart .ct-series.ct-series-b .ct-slice-donut {
+    stroke: $success;
+}
+.ct-chart .ct-series.ct-series-c .ct-bar, .ct-chart .ct-series.ct-series-c .ct-line, .ct-chart .ct-series.ct-series-c .ct-point, .ct-chart .ct-series.ct-series-c .ct-slice-donut {
+    stroke: $warning;
+}
+.ct-chart .ct-series.ct-series-d .ct-bar, .ct-chart .ct-series.ct-series-d .ct-line, .ct-chart .ct-series.ct-series-d .ct-point, .ct-chart .ct-series.ct-series-d .ct-slice-donut {
+    stroke: $pink;
+}
+.ct-chart .ct-series.ct-series-e .ct-bar, .ct-chart .ct-series.ct-series-e .ct-line, .ct-chart .ct-series.ct-series-e .ct-point, .ct-chart .ct-series.ct-series-e .ct-slice-donut {
+    stroke: $dark;
+}
+.ct-chart .ct-series.ct-series-f .ct-bar, .ct-chart .ct-series.ct-series-f .ct-line, .ct-chart .ct-series.ct-series-f .ct-point, .ct-chart .ct-series.ct-series-f .ct-slice-donut {
+    stroke: $info;
+}
+.ct-chart .ct-series.ct-series-g .ct-bar, .ct-chart .ct-series.ct-series-g .ct-line, .ct-chart .ct-series.ct-series-g .ct-point, .ct-chart .ct-series.ct-series-g .ct-slice-donut {
+    stroke: $danger;
+}
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+    fill: $primary;
+}
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie {
+    fill: $success;
+}
+.ct-series-c .ct-area, .ct-series-c .ct-slice-pie {
+    fill: $warning;
+}
+.ct-series-d .ct-area, .ct-series-d .ct-slice-pie {
+    fill: $pink;
+}
+.chartist-tooltip {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  min-width: 10px;
+  padding: 2px 10px;
+  border-radius: 3px;
+  background: $dark;
+  color: $white;
+  text-align: center;
+  pointer-events: none;
+  z-index: 1;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+
+.chartist-tooltip.tooltip-show {
+  opacity: 1;
+}
+
+
+/* C3 chart */
+.c3 svg {
+    max-width: 100%;
+}
+.c3-tooltip td>span {
+  background: $dark;
+}
+.c3-tooltip td {
+    border-left: none;
+}
+.c3-tooltip {
+    box-shadow: 0px 0px 8px 0px #777;
+    opacity: 1;
+}
+.c3-chart-arcs-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.c3-tooltip tr {
+    border: none !important;
+}
+.c3-tooltip th {
+  background-color: $dark;
+}
+
+.c3-tooltip {
+  .value {
+    font-weight: 600;
+  }
+}
+
+/* Sparkline chart */
+.jqstooltip {
+  background-color: $dark !important;
+  padding: 0 !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-color: $dark !important;
+}
+.jqsfield {
+  font-size: 12px !important;
+  line-height: 18px !important;
+}

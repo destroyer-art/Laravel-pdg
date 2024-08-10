@@ -1,0 +1,184 @@
+
+//Background colors
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+
+/* Margin / Padding classes */
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-t-10 {
+  margin-top: 10px !important;
+}
+
+.m-t-15 {
+  margin-top: 15px !important;
+}
+
+.m-t-20 {
+  margin-top: 20px !important;
+}
+
+.m-t-30 {
+  margin-top: 30px !important;
+}
+
+.m-t-50 {
+  margin-top: 50px !important;
+}
+
+.m-t-70 {
+  margin-top: 70px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.m-b-15 {
+  margin-bottom: 15px !important;
+}
+
+.m-b-20 {
+  margin-bottom: 20px !important;
+}
+
+.m-b-30 {
+  margin-bottom: 30px !important;
+}
+
+.m-l-5 {
+  margin-left: 5px !important;
+}
+
+.m-r-5 {
+  margin-right: 5px !important;
+}
+
+@media (max-width: 767px) {
+  .m-t-sm-40 {
+    margin-top: 40px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .m-t-xs-40 {
+    margin-top: 40px !important;
+  }
+}
+
+/* Width */
+.w-xs {
+  min-width: 80px;
+}
+
+.w-sm {
+  min-width: 95px;
+}
+
+.w-md {
+  min-width: 110px;
+}
+
+.w-lg {
+  min-width: 140px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.display-block {
+  display: block;
+}
+
+/* Demo only */
+.icon-list-demo div {
+  cursor: pointer;
+  line-height: 45px;
+  white-space: nowrap;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-list-demo div p {
+  margin-bottom: 0;
+  line-height: inherit;
+}
+
+.icon-list-demo i {
+  text-align: center;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 24px;
+  border: 1px solid $gray-lighter;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 12px;
+  color: rgba($dark, 0.7);
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.icon-list-demo .col-md-4 {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-clip: padding-box;
+  margin-bottom: 10px;
+}
+
+.icon-list-demo .col-md-4:hover {
+  i {
+    color: $custom;
+  }
+}
+
+.icon-list-pe7 i {
+  font-size: 28px;
+  color: $dark;
+}
+
+/* Switchery demo */
+.switchery-demo .switchery {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+
+// Dropdown demo
+.dropdown-example {
+  position: static;
+  display: block;
+  margin-bottom: .25rem;
+  clear: left;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: darken($white,5%);
+  color: inherit;
+}
+
+
+
