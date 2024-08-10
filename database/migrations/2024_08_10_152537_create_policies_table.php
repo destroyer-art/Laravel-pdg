@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('policies', function (Blueprint $table) {
             $table->id();
+            $table->string('code')->unique();
+            $table->string('plan_reference');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('investment_house');
+            $table->date('last_operation');
+            $table->foreignId('user_id')->nullable()->constrained('users');
             $table->timestamps();
         });
     }
