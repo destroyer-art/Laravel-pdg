@@ -20,18 +20,6 @@ class PolicyController extends Controller
         $policyIds = $request->input('policy_ids', []);
         $availablePolicies = Availablep::whereIn('id', $policyIds)->get();
         foreach ($availablePolicies as $availablePolicy) {
-            // $validator = Validator::make([
-            //     'code' => $availablePolicy->policy,
-            // ], [
-            //     'code' => 'unique:policies,code',
-            // ]);
-            // if ($validator->fails()) {
-            //     $errors[] = [
-            //         'policy_code' => $availablePolicy->policy,
-            //         'message' => 'Policy already exists.',
-            //     ];
-            //     continue;
-            // }
             $policy = new Policy();
             $policy->code = Random::generate();
             $policy->first_name = $availablePolicy->first_name;
