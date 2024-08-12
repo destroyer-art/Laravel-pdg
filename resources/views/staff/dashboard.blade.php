@@ -19,9 +19,9 @@
         <tbody>
             @foreach($policies as $policy)
             <tr>
-                <td>{{ $policy->policy_number }}</td>
+                <td>{{ $policy->code }}</td>
                 <td>{{ $policy->plan_reference }}</td>
-                <td>{{ $policy->member_name }}</td>
+                <td>{{ $policy->first_name }} {{ $policy->last_name }}</td>
                 <td>{{ $policy->investment_house }}</td>
             </tr>
             @endforeach
